@@ -8,7 +8,7 @@ import json
 from audio_recorder_streamlit import audio_recorder
 
 directory = "assests/aac"
-st.title("Chatbot for Autism")
+st.title("Chatbot for Autism Kids")
 aac, text, speech = st.tabs(["AAC", "Text", "Speech"])
 
 if "ChatHistory" not in st.session_state:
